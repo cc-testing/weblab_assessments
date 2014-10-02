@@ -1,0 +1,42 @@
+
+    /*  when creating a style sheet .. create classes to  mix and match  create IDs for specific location  ..
+    p.tiny  "tiny" class only applies to a paragraph with this class gets this rule
+    p.tiny {
+        font-weight: bold;
+    }
+
+     so when this is to be used it will be inside a P tag as such
+
+     <p class="tiny"> hello </p>
+
+     */
+
+  .heavy{
+    font-weight: bold;
+  }
+
+  .small {
+     font-size: 12px;
+  }
+
+  .curvy {
+     font-style: italic;
+  }
+
+  .space{
+      margin: 1em;
+  }
+
+  .border {
+      border-bottom: 1px solid lightgray    ;
+  }
+
+  .colorme {
+      color: #999;
+  }
+
+  #h1rule {
+      text-align: center;
+      border-bottom: 2px groove white;
+      font-family: arial;
+  }

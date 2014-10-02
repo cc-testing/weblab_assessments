@@ -15,5 +15,5 @@ Build a new page.
 5. mix and match these styles on the paragraphs
 6. write a rule for the h1
 	- center
-	- bottom border 2px groove white
-	- font face Arial
+    - bottom border 2px groove white
+    - font face Arial

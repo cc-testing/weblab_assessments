@@ -1,0 +1,62 @@
+    body {
+        /* background-image:url(":http://www.leawo.com/blog/wp-content/uploads/2010/03/Alice-in-Wonderland-11-full.jpg");   DOES NOT WORK  */
+    }
+
+    .toctitle{
+        text-align: center;
+        font-size: 24px;
+        color: #3f38ff;
+        text-decoration: underline;
+    }
+
+    .toclink {
+        color: #991f4d;
+        font-weight:bold;
+    }
+
+    .spaceleft {
+        margin-left:25px;
+    }
+
+    h1 {
+        color: #551099;
+    }
+
+    .totalwidth {
+        width: 400px;
+        /*margin:10px 100px 10px;*/
+        border: 1px solid red;
+        border-radius: 25px;
+        padding: 10px;
+        box-shadow: 10px 10px 5px #888888;
+        margin: auto; /* will center all content and takes out the guessing of margin  */
+        /*height:600px;
+        overflow:hidden;
+        overflow-y:scroll;*/
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .content{
+        font-family:Roboto Condensed;
+        border: 1px solid black;
+        background-color: lightblue;
+        padding: 1px 10px 1px;
+    }
+
+    h1,h2,h3{
+        background-color:red;
+        color:yellow;
+        margin:2px;
+        border:1px solid black;
+        border-radius:25px;
+    }
+
+    p.colors{
+        background-color:yellow;
+    }
+
+
+

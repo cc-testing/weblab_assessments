@@ -1,0 +1,102 @@
+    body {
+        width: 800px;
+        margin: auto;
+        font-family: cabin;
+    }
+
+    .readme {
+        text-decoration: underline;
+    }
+
+    .bgquote {
+        background-color: #25aa99;
+        text-align: center;
+        margin-top: -4px;
+        height:30px;
+        line-height: 0;
+        border:1px solid black;
+        border-radius:25%;
+        color:white;
+    }
+
+    .table_view_img {
+        width: 700px;
+        margin: auto;
+    }
+
+    td {
+        text-align: left;
+    }
+
+    .footer {
+        width: 800px;
+        background-color: #25aa99;
+        height: 50px;
+
+    }
+
+    .stats_img {
+        width: 700px;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+    .topimage {
+        width: 800px;
+        height:600px;
+        background-image: url(img/header_background.jpg);
+
+    }
+
+    .formstyle {
+        margin-left:150px;
+        padding-top: 10px;
+        line-height:2;
+    }
+
+    .table_contact {
+        width:800px;
+        margin: auto;
+        background-color: #d8d9dd;
+    }
+
+    .main_content_bg {
+        background-color: orange;
+        padding: 20px;
+    }
+
+    ul li { /*changes the orientation of a LI to horizontal and floats right */
+        display: inline-block;
+        float: right;
+        color: white;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    ul {   /* in  order for LI to expand to the far right, UL and not LI must be set to 100% to match width of parent you also since the image needs to be in UL a height needs to be displayed so it can be seen */
+        width: 700px;
+        height:100px;
+        background: url("img/logo.png") no-repeat bottom left;
+    }
+     h1 {
+         color: white;
+         margin-top: 250px;
+         padding-left: 100px;
+         padding-right: 100px;
+     }
+
+     h2 {
+         color: white;
+         padding-left: 100px;
+         padding-right: 100px;
+     }
+
+     .p_title {
+         font-size: 20px;
+         font-weight: bold;
+     }
+
+
+
